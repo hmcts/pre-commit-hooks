@@ -8,7 +8,7 @@ Git hook scripts are useful for identifying simple issues before submission to c
 Before you can run hooks, you need to have pre-commit installed via this URL: https://pre-commit.com/#installation 
 
 # Creating a pre-commit hook
-Firstly check [here](https://pre-commit.com/hooks.html) to see if a hook is already available. If not, you can create your own and add to this repository.
+Firstly check on [pre-commit.com](https://pre-commit.com/hooks.html) to see if a hook is already available. If not, you can create your own and add to this repository.
 
 ## Setup of new pre-commit hook
 1. Apply the script that you want to run as part of your hook [here](https://github.com/hmcts/pre-commit-hooks/tree/master/pre-commit-hooks). Ensure it is set to executable.
