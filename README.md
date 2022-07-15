@@ -22,7 +22,7 @@ Firstly check on [pre-commit.com](https://pre-commit.com/hooks.html) to see if a
 pre-commit install
 pre-commit installed at .git/hooks/pre-commit
 ```
-2. Creat file .pre-commit-config.yaml at root of directory and apply new webhook(s) as above.
+2. Create a file called `.pre-commit-config.yaml` at the root of the repository and apply new webhook(s) as above.
 
 
 ## Sample output of pre-commit hooks
