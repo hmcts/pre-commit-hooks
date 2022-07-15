@@ -1,0 +1,5 @@
+- id: app_gateway_backend_check
+  name: app_gateway_backend_check
+  description: Checks app_configuration to ensure <100 backend pools.
+  entry: pre-commit-hooks/app_gateway_backend_check.sh
+  language: script
