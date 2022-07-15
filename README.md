@@ -12,7 +12,7 @@ Firstly check on [pre-commit.com](https://pre-commit.com/hooks.html) to see if a
 
 ## Setup of new pre-commit hook
 1. Apply the script that you want to run as part of your hook in the [pre-commit-hooks](https://github.com/hmcts/pre-commit-hooks/tree/master/pre-commit-hooks) folder. Ensure it is set to executable (`chmod +x file_name`) .
-2. Update [.pre-commit-hooks](https://github.com/hmcts/pre-commit-hooks/blob/master/.pre-commit-hooks.yaml) with a new ID etc of the newly created hook. Further syntax on [this](https://pre-commit.com/#new-hooks)
+2. Update [.pre-commit-hooks](https://github.com/hmcts/pre-commit-hooks/blob/master/.pre-commit-hooks.yaml) with an ID for the newly created hook. See also further syntax on [new-hooks](https://pre-commit.com/#new-hooks).
 3. Tag the change and create a new [release](https://github.com/hmcts/pre-commit-hooks/releases)
 4. Apply your new webhook to the repository .pre-config-config.yaml [example](https://github.com/hmcts/azure-platform-terraform/blob/master/.pre-commit-config.yaml)
 
