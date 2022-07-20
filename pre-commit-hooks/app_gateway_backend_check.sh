@@ -1,5 +1,10 @@
 #!/usr/bin/env bash
 
+if ! command -v yq > /dev/null 2>&1; then
+    echo "Please install yq to run the pre-commit hook! https://github.com/mikefarah/yq"
+    exit 1
+fi
+
 for lb_config in `find environments/ -name 'backend_lb_config.yaml'`
 do 
 
