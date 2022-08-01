@@ -12,7 +12,7 @@ do
 
         if [ "$app_configuration_number" -gt "100" ]
         then
-            echo "change your application to use the next gateway that is not full" && exit 1
+            echo "change your application to use the next gateway that is not full in file: $lb_config" && exit 1
         fi
 
     done
